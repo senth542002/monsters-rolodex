@@ -41,5 +41,10 @@ Fonts:
 https://fonts.google.com/?query=bigelow+rules&selection.family=Bigelow+Rules
 
 Deploy Static pages to github:
-
 npm install gh-pages
+
+package.json:
+"homepage": "https://senth542002.github.io/monsters-rolodex",
+
+"Scripts" -> "predeploy": "npm run build",
+             "deploy": "gh-pages -d build"
