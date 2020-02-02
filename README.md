@@ -36,3 +36,10 @@ Visual source plugins:
 
 Images:
 https://robohash.org/1?set=set2
+
+Fonts:
+https://fonts.google.com/?query=bigelow+rules&selection.family=Bigelow+Rules
+
+Deploy Static pages to github:
+
+npm install gh-pages
