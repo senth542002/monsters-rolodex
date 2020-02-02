@@ -41,6 +41,7 @@ Fonts:
 https://fonts.google.com/?query=bigelow+rules&selection.family=Bigelow+Rules
 
 Deploy Static pages to github:
+------------------------------
 npm install gh-pages
 
 package.json:
@@ -48,3 +49,13 @@ package.json:
 
 "Scripts" -> "predeploy": "npm run build",
              "deploy": "gh-pages -d build"
+
+npm run deploy
+
+github.com -> settings -> GitHub Pages -> Choose gh-pages branch
+Navigate to Navigate https://senth542002.github.io/monsters-rolodex
+
+Updating Latest Versions:
+npm ls react react-dom react-scripts
+
+Add ^ to make sure the package updates whenever you run npm update
